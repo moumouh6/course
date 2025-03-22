@@ -51,6 +51,28 @@ video {
     margin-bottom: 15px;
 }
 
+/* PDF Viewer */
+iframe {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Download Button */
+.btn-download {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn-download:hover {
+    background-color: #218838;
+}
+
 /* Download Button */
 .btn-download {
     display: inline-block;

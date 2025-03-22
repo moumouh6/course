@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
         } else if (courseData.type === "pdf") {
             mainContentDiv.innerHTML = `
                 <p><strong>Course Material:</strong></p>
+                <iframe src="${courseData.mainContent}" width="100%" height="500px"></iframe>
                 <a href="${courseData.mainContent}" target="_blank" class="btn-download">📄 Download PDF</a>
             `;
         }
